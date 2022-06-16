@@ -20,7 +20,6 @@ int __exit(info_t *info)
 			perrorl_default(*info->argv, info->lineno, *args,
 					*info->tokens, "Illegal number", NULL);
 			info->status = 2;
-			
 			return (info->status);
 		}
 	}
